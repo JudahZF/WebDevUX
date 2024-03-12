@@ -1,0 +1,35 @@
+header {
+    background: #333;
+    height: 100px;
+    outline: 1px green dotted;
+}
+aside {
+    flex: 1;
+    outline: 1px blue dotted;
+}
+section {
+    flex: 4;
+    outline: 1px red dotted;
+}
+
+footer {
+    background: #333;
+    outline: 1px yellow dotted;
+}
+
+#container {
+    outline: 1px black dotted;
+}
+
+main {
+    display: flex;
+}
+
+@media (width < 1000px) {
+    main {
+        flex-direction: column;
+    }
+    body {
+        background: #f4f4f4;
+    }
+}
